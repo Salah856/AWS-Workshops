@@ -93,3 +93,10 @@ sudo pip3 install locust
 
 ```
 
+### UPDATE IAM SETTINGS FOR YOUR WORKSPACE
+
+- Return to your workspace and click the gear icon (in top right corner), or click to open a new tab and choose “Open Preferences”
+- Select AWS SETTINGS
+
+- Turn off AWS managed temporary credentials
+- Close the Preferences tab
