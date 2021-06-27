@@ -1,6 +1,17 @@
 
 # AWS SERVERLESS OBSERVABILITY WORKSHOP 
 
+
+### PREREQUISITES
+
+The following prerequisites are required for this workshops:
+
+- A computer with an internet connection running Microsoft Windows, Mac OS X, or Linux.
+- An internet browser such as Chrome, Firefox, Safari, Opera, or Edge.
+- Familiarity with common Linux commands and the concepts of CI/CD.
+
+
+
 ### CREATE AN AWS ACCOUNT
 
 If you don’t already have an AWS account with Administrator access: <a href="https://aws.amazon.com/getting-started/">  create one now by clicking here </a>
