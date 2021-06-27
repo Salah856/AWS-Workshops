@@ -44,3 +44,37 @@ Take note of the login URL and save it for future use:
 
 Click on this URL to go to the AWS Management Console login page, use the username and password for the workshop user you just created.
 
+
+
+#### CREATE A WORKSPACE
+
+Launch Cloud9 in your closest region:
+
+Accept the default values for Stack name and Parameters and click Create stack.
+
+
+![cfn-stack-1](https://user-images.githubusercontent.com/23625821/123538436-36596980-d735-11eb-8a36-49a2aef181ff.png)
+
+
+![cfn-stack-2](https://user-images.githubusercontent.com/23625821/123538445-41ac9500-d735-11eb-98ec-2d660c766352.png)
+
+
+Wait until your Stack creating status shows as CREATE_COMPLETE
+
+
+![cfn-stack-3](https://user-images.githubusercontent.com/23625821/123538455-4e30ed80-d735-11eb-833b-fe49f4988263.png)
+
+Go to your Cloud9 Environment.
+
+Find the environment named serverless-observability-workshop, click Open IDE.
+
+When the Cloud9 console is shown, customize the environment by closing the welcome tab and the AWS Toolkit tab, lower work area, and opening a new terminal tab in the main work area:
+
+
+<img width="1432" alt="c9before" src="https://user-images.githubusercontent.com/23625821/123538480-63a61780-d735-11eb-8265-36bdd23f3dc7.png">
+
+Your workspace should now look like this:
+
+
+<img width="1432" alt="c9after" src="https://user-images.githubusercontent.com/23625821/123538490-73bdf700-d735-11eb-8d02-5a215198f4ba.png">
+
