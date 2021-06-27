@@ -78,3 +78,18 @@ Your workspace should now look like this:
 
 <img width="1432" alt="c9after" src="https://user-images.githubusercontent.com/23625821/123538490-73bdf700-d735-11eb-8d02-5a215198f4ba.png">
 
+
+### UPDATE YOUR WORKSPACE
+
+##### Install dependencies
+
+- Run the following commands in the Cloud9 terminal to update nvm (Node Version Manager) and install jq (a command-line JSON processor) and Locust (a load testing tool)
+
+```bash
+
+nvm install stable
+sudo yum -y install jq 
+sudo pip3 install locust
+
+```
+
