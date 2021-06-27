@@ -101,5 +101,3 @@ sudo pip3 install locust
 - Turn off AWS managed temporary credentials
 - Close the Preferences tab
 
-
-
