@@ -68,6 +68,30 @@ For setup steps, you can find it  <a href="https://codequality.workshop.aws/en/s
 ~ git checkout origin/develop -b develop
 ```
 
+<img width="1397" alt="codecommit-develop2" src="https://user-images.githubusercontent.com/23625821/125894076-005ceaa3-7d63-413a-866d-7e914d610e38.png">
+
+
+4. To check the output of CloudFormation, go to the CloudFormation console.
+
+go to the CloudFormation console : https://console.aws.amazon.com/cloudformation
+
+5. Select Stacks from the left menu and select CodeQuality-Workshop you created. You can check the detailed information of the stack created here.
+
+![codecommit-cloudformation-select-stack](https://user-images.githubusercontent.com/23625821/125894252-d1be4ba8-ab38-4b2f-a17d-62bdf0add95f.png)
+
+
+6. Select Outputs at the top of the stack details. There you copy the URL of CodeCommit that lab `a repository. 
+
+![codecommit-cloudformation-stacks-output](https://user-images.githubusercontent.com/23625821/125894261-aca5c364-6dad-4a30-acf2-c70d3d8f5ba7.png)
+
+7. Change the url of origin to the address of the newly created codecommit at https://github.com/aws-samples/amazon-cicd-concurrency-sample-application.git.
+
+Entering the following in the terminal of Cloud9. <YOUR_REPOSITORY-URL> is the changeCodeCommit copied from the Stack of CloudFormation.
+
+```
+~ git remote set-url origin <YOUR-REPOSITORY-URL>
+```
+
 
 
 ### Reference: 
