@@ -1,5 +1,5 @@
 
-In part 1, we knew how to setup our environment for CI/CD using AWS series, and CodeGuru. 
+In <a href="https://dev.to/awsmenacommunity/aws-ci-cd-pipeline-with-codeguru-unittest-part-i-i4o"> previous part </a> , we knew how to setup our environment for CI/CD using AWS series, and CodeGuru. 
 
 Now, Let's check the code. 
 
@@ -19,3 +19,4 @@ Now, Let's check the code.
 
 
 ```
+
