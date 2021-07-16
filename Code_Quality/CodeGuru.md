@@ -48,16 +48,25 @@ Amazon CodeGuru Profiler is always searching for application performance optimiz
 
 For setup steps, you can find it  <a href="https://codequality.workshop.aws/en/setup.html"> here </a> and  <a href="https://codequality.workshop.aws/en/setup/lab-setup.html"> here </a> 
 
+
 ###  CodeCommit Setup and source code download
+
 1. let’s set up the code in Cloud9. Enter the following command in the terminal of Cloud9. 
 
 ```sh
-git clone https://github.com/aws-samples/amazon-cicd-concurrency-sample-application.git
-
+~ git clone https://github.com/aws-samples/amazon-cicd-concurrency-sample-application.git
 ```
 
+2. If the command is executed successfully, created a folder name amazon-cicd-concurrency-sample-application in the file cloud9 file tree. 
 
+<img width="1402" alt="codecommit-master2" src="https://user-images.githubusercontent.com/23625821/125893870-3a1851ec-ce50-40d3-9424-e318f2d0d292.png">
 
+3. clone gets the master branch. If you look at the contents of the folder, there are no other files except the README.md file. the real source code in develop, pull the develop branch.
+
+```
+~ cd amazon-cicd-concurrency-sample-application
+~ git checkout origin/develop -b develop
+```
 
 
 
