@@ -104,6 +104,22 @@ After that, you can checkout to master branch first then push commits. Then, dev
 ~ git push 
 ```
 
+
+### CodeGuru Reviewer setup
+
+- Go to the CodeGuru console : https://console.aws.amazon.com/codeguru. 
+- Select Associated repositories from Reviewer on the left menu. 
+![codeguru-reviewer-select](https://user-images.githubusercontent.com/23625821/125894830-c5ce561b-a694-4dcd-af38-09ce70c3fbfb.png)
+
+- Select Associate repository at the top right.
+![codeguru-associate-repository](https://user-images.githubusercontent.com/23625821/125894873-6cfa7a23-5fd4-4170-aba4-b1efda61cfc3.png)
+
+
+
+
+
+
+
 ### Reference: 
 
 <a href="https://codequality.workshop.aws/en/"> Source </a>
