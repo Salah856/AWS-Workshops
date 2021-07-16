@@ -35,3 +35,13 @@ public Concurrency putKey(int product_code ) {
 
 
 ```
+
+- putKey works is simple. Check that HashMap has a number with containsKey() and if not, save the number with put(). 
+- If the HashMap already has the same value, don’t put it.
+
+- BasicSynchronization calls pukey() of SingletonRepo and inserts a randomly generated number between 0 ~ 2000.
+- ConcurrencyCheckout is Main class. This class creates 5 BasicSynchronizations and starts 5 threads.
+
+![Screenshot from 2021-07-16 08-40-35](https://user-images.githubusercontent.com/23625821/125903682-aacacecb-f5ab-45d3-9ba6-e25d760508e7.png)
+
+
