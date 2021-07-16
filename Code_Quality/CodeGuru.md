@@ -187,9 +187,18 @@ reports:
     
 ```
 
+- Commit and push them to codecommit.
+      
+```
+~ cd amazon-cicd-concurrency-sample-application
+~ git add .
+~ git commit -m "change Buildspec.yml"
+~ git push
+```
 
-
-
+- Now we finished the first part in this series. 
+      
+      
 
 ### Reference: 
 
