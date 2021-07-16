@@ -7,6 +7,11 @@ It covers simple branch build and deployment, UnitTest report, and CodeGuru whic
 
 ![1](https://user-images.githubusercontent.com/23625821/125891953-96b13bd1-19ab-4b20-8093-e0bf42196dc1.png)
 
+## AWS Code Series (AWS CI/CD services)
+
+You can use the AWS Code Series. Code series is a fully managed service, so there is no need for a infrastructure.
+
+![codeseri](https://user-images.githubusercontent.com/23625821/125892307-effda3d7-55e4-4d47-92d9-d3c787e26678.png)
 
 
 ### Reference: 
