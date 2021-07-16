@@ -1,5 +1,5 @@
 
-# WS CI/CD pipeline with CodeGuru & UnitTest to improve code quality 
+# AWS CI/CD pipeline with CodeGuru & UnitTest to improve code quality 
 
 
 
