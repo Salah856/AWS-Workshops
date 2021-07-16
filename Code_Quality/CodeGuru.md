@@ -92,7 +92,17 @@ Entering the following in the terminal of Cloud9. <YOUR_REPOSITORY-URL> is the c
 ~ git remote set-url origin <YOUR-REPOSITORY-URL>
 ```
 
+After finished the command, check again with git remote show origin, and you can see that the URL of origin has been changed to your CodeCommit address. 
 
+After that, you can checkout to master branch first then push commits. Then, develop branch and push commits. 
+
+```
+~ git checkout master 
+~ git push 
+
+~ git checkout develop
+~ git push 
+```
 
 ### Reference: 
 
