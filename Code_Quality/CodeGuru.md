@@ -45,7 +45,16 @@ The contents that CodeGuru Reviewer detects can be this categories.
 
 Amazon CodeGuru Profiler is always searching for application performance optimizations, identifying your most expensive lines of code and recommending ways to fix them to reduce CPU utilization, cut compute costs, and improve application performance.
 
+
 For setup steps, you can find it  <a href="https://codequality.workshop.aws/en/setup.html"> here </a> and  <a href="https://codequality.workshop.aws/en/setup/lab-setup.html"> here </a> 
+
+###  CodeCommit Setup and source code download
+1. let’s set up the code in Cloud9. Enter the following command in the terminal of Cloud9. 
+
+```sh
+git clone https://github.com/aws-samples/amazon-cicd-concurrency-sample-application.git
+
+```
 
 
 
