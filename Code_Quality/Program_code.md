@@ -95,5 +95,6 @@ Select Pipeline in left menu and click concurrencysample-develop. this pipeline 
 ![codepipeline-dev-success](https://user-images.githubusercontent.com/23625821/125905320-9312953c-93cd-4012-a750-89ca67b1ded7.png)
 
 
+We finished this part. In next part we will handle the pull requests and monitor the process using Codeguru. 
 
 
