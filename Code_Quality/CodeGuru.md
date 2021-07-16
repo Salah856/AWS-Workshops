@@ -124,9 +124,40 @@ After that, you can checkout to master branch first then push commits. Then, dev
 
 ![codeguru-fin](https://user-images.githubusercontent.com/23625821/125894987-c610df69-0610-40d9-b0db-9b77e4351928.png)
 
+- Now CodeGuru and Codecommit are linked. 
 
 
+### CodeGuru profiler setup 
 
+- Go to the CodeGuru console: https://console.aws.amazon.com/codeguru
+- Select Profiling groups from Profiler on the left menu.
+
+<img width="939" alt="codeguru-profiler-select" src="https://user-images.githubusercontent.com/23625821/125895194-baefb27b-c896-4e90-8230-45cb01652f99.png">
+
+- Select Create profiling groups at the top right. 
+
+<img width="1389" alt="codeguru-profiler-group" src="https://user-images.githubusercontent.com/23625821/125895240-87393775-54d8-4bed-8131-9441c308dac1.png">
+- Enter concurrencysample-profiler in Name of Profiling group details in Create profiling group. click Create at the bottom right. 
+
+<img width="1091" alt="codeguru-profiler-create" src="https://user-images.githubusercontent.com/23625821/125895291-d9d6ec27-212f-43e1-ba66-832cec0db831.png">
+
+- Enter WebAppRole in choose users and roles in the Manage permissions for concurrencysample-profiler box. Select the checkbox on the left and click Save to save. 
+
+<img width="636" alt="1" src="https://user-images.githubusercontent.com/23625821/125895451-fd1360dc-ddbf-40a7-a08a-fa0ddcd0f4de.png">
+
+- Profiler can be found in the main of the source code, ConcurrencyCheckout.java.
+
+```java
+public static void main(final String[] args) {
+    // Start the profiler
+    Profiler.builder().profilingGroupName("concurrencysample-profiler").withHeapSummary(true).build().start();
+    
+} 
+
+```
+
+- Now CodeGuru profiler and instance is complete. 
+ 
 
 
 ### Reference: 
