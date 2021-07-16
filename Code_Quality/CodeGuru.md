@@ -159,6 +159,37 @@ public static void main(final String[] args) {
 - Now CodeGuru profiler and instance is complete. 
  
 
+### CodeBuild report 
+
+- Go to the Codebuild console : https://console.aws.amazon.com/codebuild
+- Select Report groups in the right Build tab. Select Create report group at the top right.
+
+![codebuild-report-4](https://user-images.githubusercontent.com/23625821/125895994-5f8311df-632d-4f14-91b8-5a7822ada0cc.png)
+- Enter Concurrency-Unittest-Report in Report group name of Rport group configuration. Select Test for the report type. Uncheck the box for Export to Amazon S3.
+
+![codebuild-report-5](https://user-images.githubusercontent.com/23625821/125896035-783d3042-945b-45cd-be19-7550a6f65e18.png)
+
+- To copy the ARN of the report groups, Concurrency-Unittest-Report from Report groups. The results of the Unittest here will now be shown. Copy the contents of Report group ARN of Configuration.
+
+![codebuild-report-copy-arn](https://user-images.githubusercontent.com/23625821/125896099-f54e393e-c11e-4257-844c-4bd59983cb9e.png)
+
+
+- Now let’s go back to Cloud9 and edit buildspec.yml. buildspec.yml is located in ConcurrencySample’s root directory. 
+
+- Double-click the file to add content. Paste the Report group ARN to <YOUR-REPORT-GROUP-ARN>.
+
+```yaml
+reports:
+  <YOUR-REPORT-GROUP-ARN>:
+    files:
+      - '**/*'
+    base-directory: 'build/test-results/test'    
+    
+```
+
+
+
+
 
 ### Reference: 
 
