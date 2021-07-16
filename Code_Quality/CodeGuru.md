@@ -109,11 +109,20 @@ After that, you can checkout to master branch first then push commits. Then, dev
 
 - Go to the CodeGuru console : https://console.aws.amazon.com/codeguru. 
 - Select Associated repositories from Reviewer on the left menu. 
+
 ![codeguru-reviewer-select](https://user-images.githubusercontent.com/23625821/125894830-c5ce561b-a694-4dcd-af38-09ce70c3fbfb.png)
 
 - Select Associate repository at the top right.
+
 ![codeguru-associate-repository](https://user-images.githubusercontent.com/23625821/125894873-6cfa7a23-5fd4-4170-aba4-b1efda61cfc3.png)
 
+- Select AWS CodeCommit as the Source provider for Repository details, then select concurrencysample at Repository location. and click Associate.
+
+![codeguru-associate2](https://user-images.githubusercontent.com/23625821/125894982-07d4b1fa-8080-43e8-9177-2e6605bf679e.png)
+
+- Check the connected concurrencysample in Codeguru’s Dashboard. 
+
+![codeguru-fin](https://user-images.githubusercontent.com/23625821/125894987-c610df69-0610-40d9-b0db-9b77e4351928.png)
 
 
 
