@@ -17,6 +17,27 @@ You can use the AWS Code Series. Code series is a fully managed service, so ther
 - CodeDeploy: AWS CodeDeploy is a fully managed deployment service that automates software deployments to a variety of compute services such as Amazon EC2, AWS Fargate, AWS Lambda, and your on-premises servers.
 - CodePipeline: AWS CodePipeline is a fully managed continuous delivery service that helps you automate your release pipelines for fast and reliable application and infrastructure updates.
 
+
+## AWS CodeGuru 
+
+Amazon CodeGuru is a machine learning service for automated code reviews and application performance recommendations.
+
+It helps you find the most expensive lines of code that hurt application performance and keep you up all night troubleshooting, then gives you specific recommendations to fix or improve your code. It supports JAVA, repository can use GitHub or CodeCommit. It is also easy to integrate. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### Reference: 
 
 <a href="https://codequality.workshop.aws/en/"> Source </a>
