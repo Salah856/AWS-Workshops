@@ -25,13 +25,27 @@ Amazon CodeGuru is a machine learning service for automated code reviews and app
 It helps you find the most expensive lines of code that hurt application performance and keep you up all night troubleshooting, then gives you specific recommendations to fix or improve your code. It supports JAVA, repository can use GitHub or CodeCommit. It is also easy to integrate. 
 
 
+<img width="757" alt="codequeility" src="https://user-images.githubusercontent.com/23625821/125892654-b146bb4f-ea60-4c5a-96f6-ce6c36eb4b5e.png">
 
+### CodeGuru Reviewer that provides Automated CodeReview
 
+Amazon CodeGuru Reviewer finds issues in your code and recommends how to remediate them.
 
+<img width="546" alt="git-pr-codereviewer" src="https://user-images.githubusercontent.com/23625821/125892722-da641d48-e54a-4f4e-8303-8b09d99167bf.png">
 
+The contents that CodeGuru Reviewer detects can be this categories.
 
+- AWS Best Practices : AWS APIs contain a rich set of features to ensure performance and stability of software.
+- Concurrency : CodeGuru Reviewer identifies problems with implementations of concurrency in multithreaded code
 
+- Resource Leaks : CodeGuru Reviewer looks for lines of code where resource leaks might be occurring.
+- Sensitive Information Leak : Sensitive information in code should not be shared with unauthorized parties.
 
+### CodeGuru Profiler 
+
+Amazon CodeGuru Profiler is always searching for application performance optimizations, identifying your most expensive lines of code and recommending ways to fix them to reduce CPU utilization, cut compute costs, and improve application performance.
+
+For setup steps, you can find it  <a href="https://codequality.workshop.aws/en/setup.html"> here </a> and  <a href="https://codequality.workshop.aws/en/setup/lab-setup.html"> here </a> 
 
 
 
