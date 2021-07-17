@@ -82,14 +82,3 @@ Using the CD/CI pipeline, modifications of the code can be safely reflected as t
 UnitTest and CodeReview are one of the best ways to improve code quality. For each process, you can use the CodeBuild Report and CodeGuru Reviwer to make code review and UnitTest safer and more effective.
 
 In the next final part, we will check the profiling results that are actually deployed and running. 
-
-
-
-
-
-
-
-
-
-
-
